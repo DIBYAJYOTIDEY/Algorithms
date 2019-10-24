@@ -7,10 +7,12 @@ for i in n:
     low=0
     high=n
   mid=(low+high)/2
-  if (s==mid):
-    print ("No. found")
+  if (s==l[mid]):
+    print ("No. found at", mid)
     break
-  elif (s>mid):
+  elif (s>l[mid]):
     low=mid+1
   elif:
     high=mid-1
+if (i==n):
+	print ("Element not found.")
